@@ -2,10 +2,10 @@
 toggle between hiding and showing the dropdown content */
 function featuresFunction() {
     document.getElementById("featuresDropdown").classList.toggle("show");
-    document.getElementById("companyDropdown").classList.remove("show");
+    document.getElementById("knowledgeDropdown").classList.remove("show");
   }
-function companyFunction() {
-    document.getElementById("companyDropdown").classList.toggle("show");
+function knowledgeFunction() {
+    document.getElementById("knowledgeDropdown").classList.toggle("show");
     document.getElementById("featuresDropdown").classList.remove("show");
   }
   // Close the dropdown menu if the user clicks outside of it
