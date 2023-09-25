@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Website</title>
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-left">
+    <img class="logo" src="./images/logo.svg" alt="logo-a word snap"> 
+    <div class="dropdown">
+      <button onclick="featuresFunction()" class="navbtn right-al">Features<i class="fa fa-caret-down"></i>
+      </button>
+      <div id="featuresDropdown" class="dropdown-content right-al">
+        <a href="#"><img src="images/icon-todo.svg" alt=""> Todo List</a>
+        <a href="#"><img src="images/icon-calendar.svg" alt=""> Calendar</a>
+        <a href="#"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+        <a href="#"><img src="images/icon-planning.svg" alt=""> Planning</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="companyFunction()" class="navbtn">Company
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="companyDropdown" class="dropdown-content left-al">
+        <a href="#">History</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+        </div>
+    </div>
+    <button href="#" class="navbtn">Careers</button>
+    <button href="#" class="navbtn">About</button>
+  </div>
+  <div class="navbar-right">
+    <button href="#" class="navbtn">Login</button>
+    <button href="#" class="navbtn regbtn">Register</button>
+  </div>
+</div> 
+<div class="landing-page">
+    <div class="landing-text">
+      <div class="header">
+        Make <br>remote work
+      </div>
+      <div class="description">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </div>
+      <button href="#" class="blackbtn">Learn more</button>
+      <div class="clients">
+        <div><img src="images/client-databiz.svg" alt="client-databiz"></div>
+        <div><img src="images/client-audiophile.svg" alt="client-audiophile"></div>
+        <div><img src="images/client-meet.svg" alt="client-meet"></div>
+        <div><img src="images/client-maker.svg" alt="client-maker"></div>
+      </div>
+    </div>
+    <div class="landing-image">
+      <img src="./images/image-hero-desktop.png" class="front-img" alt="a man with laptop"> 
+    </div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by PC.
+  </div>
+
+</body>
+</html>

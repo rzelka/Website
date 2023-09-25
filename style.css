@@ -1,0 +1,166 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  margin: 30px 50px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.attribution {
+  text-align: left;
+  font-size: 12px;
+  padding-left: 120px;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+}
+
+.blackbtn {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  max-width: 150px;
+  padding: 20px 20px;
+}
+
+.blackbtn:hover, .blackbtn:focus {
+  background-color: hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.description {
+  line-height: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 100px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:  hsl(0, 0%, 41%);
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 10px;
+  padding-left: 20px;
+}
+
+.dropdown-content a:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.front-img {
+  max-width: 90%;
+  }
+
+.header {
+  color: hsl(0, 0%, 8%);
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 50px;
+}
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 100px 120px;
+}
+
+.logo {
+  padding-top: 9px;
+  padding-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbtn {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  border: none;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.navbtn:hover, .dropbtn:focus {
+  color: hsl(0, 0%, 8%);
+}
+
+.regbtn {
+  border: 1px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.regbtn:hover, .regbtn:focus {
+  border: 1px solid hsl(0, 0%, 8%);
+}
+
+.left-al {
+  left: 20px;
+}
+
+.right-al {
+  right: 20px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
